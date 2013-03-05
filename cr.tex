@@ -1,0 +1,43 @@
+\documentclass[a4paper]{meetrpt}
+\usepackage[latin1]{inputenc}
+\usepackage[OT1]{fontenc}
+\usepackage[super]{nth}
+\usepackage[english]{babel}
+\author{Alexandre \textsc{Abraham}}
+\title{Tea Party}
+\date{\nth{20} of October 2012}
+\schedule{6pm-6pm}
+\site{Wonderland}
+\type{Extraordinary meeting}
+
+% People
+\people{hatter}{Mad \textsc{Hatter}}{Host}
+\people{alice}{Alice \textsc{Liddell}}{Lost in wonderland}
+\people{hare}{March \textsc{Hare}}{Guest}
+\people{dormouse}{Dormouse}{Guest}
+\people*{rabbit}{White \textsc{Rabbit}}{Runner}
+\people*{queen}{Red \textsc{Queen}}{Queen}
+
+\animator{\hatter}
+\protractor{\hare}
+
+\version{0.1}{Draft}
+
+\begin{document}
+\maketitle
+
+\begin{business}{Welcoming \alice}
+\subject{\alice is lost in Wonderland. We must welcome her with songs and riddles!}
+\conclusion{She thinks that we are mad.}
+\assign{Sing songs again}{\hare}{Now}
+\assign{Serve tea}{\hatter}{Now}
+\end{business}
+
+\begin{business}{Help \alice in her quest}
+\subject{\alice leaves because she is tired of the riddles.}
+\conclusion{}
+\assign{Find the \rabbit.}{Everybody}{ASAP}
+\assign{Meet the \queen}{\alice}{?}
+\end{business}
+
+\end{document}
